@@ -5,33 +5,33 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7583394186:AAFsVX0HxkPP53rl3RNss7Xcgk5S3O5Gi5E")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "HxkPP53rl3RNss7Xcgk5S3O5Gi5E")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "22409622"))
+APP_ID = int(os.environ.get("APP_ID", "222"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "16353e2a4d45ff8be4a2037cca158749")
+API_HASH = os.environ.get("API_HASH", "1635a2037cca158749")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002318031286"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-31286"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "Garv")
+OWNER = os.environ.get("OWNER", "Gv")
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "7211073530"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7530"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
 
 #Database
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Toonpro12:animebash@cluster0.e6hpn8l.mongodb.net/?retryWrites=true&w=majority")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srvryWrites=true&w=majority")
 DB_NAME = os.environ.get("DATABASE_NAME", "dschut")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001715616229"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001974461884"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-616229"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-11884"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -41,7 +41,7 @@ FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "60")) # auto delete in sec
 START_MSG = os.environ.get("START_MESSAGE", "<b>ʙᴀᴋᴋᴀᴀᴀ!! {first}\n\n ɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.</b>")
 try:
     ADMINS=[6376328008]
-    for x in (os.environ.get("ADMINS", "1119579816 6427494689 6590736993 1785065025 6315792232 1735152469 5574593875 7211073530").split()):
+    for x in (os.environ.get("ADMINS", "1119579816 6427494689").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
