@@ -93,7 +93,7 @@ async def start_command(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton('Channel 1', url='https://t.me/crunchyroll_hindi_official_dubs'),
-                    InlineKeyboardButton('Channel 2', url='https://t.me/Infinity_Animeverse')
+                    InlineKeyboardButton('Channel 2', url='https://t.me/+eorePI-J7pE0MDE1')
                 ]
             ]
         )
