@@ -92,8 +92,8 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Channel 1', url='https://t.me/crunchyroll_hindi_official_dubs'),
-                    InlineKeyboardButton('Channel 2', url='https://t.me/+eorePI-J7pE0MDE1')
+                    InlineKeyboardButton('Channel 1', url='https://t.me/+pKcIV7Gla8U1N2Nl'),
+                    InlineKeyboardButton('Channel 2', url='https://t.me/+64o3s9HU5pw4ZGRl')
                 ]
             ]
         )
